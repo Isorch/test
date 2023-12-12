@@ -529,4 +529,4 @@ print(ppl)
 with open('Students.csv', "w", encoding='utf-8', newline="") as file:
     writer = csv.DictWriter(file, fieldnames=["id", 'name', 'titleProject_id', 'class', 'score'])
     writer.writeheader()
-    writer.writerows(pl)
+    writer.writerows(ppl)
